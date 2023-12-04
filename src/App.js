@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigation/Navigation';
+import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton';
+import Section from './components/Section/Section';
+// import projects from './data/projects.json';
 
-function App() {
+const App = () => {
+  // console.log(projects[0].name);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <ScrollToTopButton />
+      <Section id="home" />
+      <Section id="expertise" />
+      <Section id="projects" />
+      <Section id="contact" />
     </div>
   );
-}
+};
 
 export default App;

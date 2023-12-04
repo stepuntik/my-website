@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  padding: 10px 20px;
+  background-color: #333; /* Adjust the background color as needed */
+}
+
+.navigation__logo {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+}
+
+.navigation.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: white; /* Adjust the text color as needed */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navigation__link:hover {
+  color: #ffd700; /* Change the color on hover */
+}
