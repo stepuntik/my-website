@@ -1,0 +1,13 @@
+.expertise {
+  height: 90vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.expertise__title {
+  font-size: 3.75rem;
+  text-transform: uppercase;
+}

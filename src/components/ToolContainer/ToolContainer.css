@@ -1,0 +1,25 @@
+.tool-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(150px, 1fr)
+  ); /* Responsive grid with a minimum column width of 150px */
+  gap: 20px; /* Adjust the gap size as needed */
+  padding: 20px;
+  font-size: 20px; /* Adjust the font size as needed */
+  justify-content: space-evenly;
+}
+
+.tool {
+  border: 2px dashed black;
+  padding: 20px;
+  text-align: center;
+}
+.tool-container__icon {
+  font-size: 4rem;
+}
+.tool-container__text {
+  font-size: 1rem;
+  text-align: center;
+}

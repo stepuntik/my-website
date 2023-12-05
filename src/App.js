@@ -1,7 +1,8 @@
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton';
-import Section from './components/Section/Section';
+import Home from './components/Home/Home';
+import Expertise from './components/Expertise/Expertise';
 // import projects from './data/projects.json';
 
 const App = () => {
@@ -10,11 +11,9 @@ const App = () => {
   return (
     <div className="App">
       <Navigation />
+      <Home />
+      <Expertise />
       <ScrollToTopButton />
-      <Section id="home" />
-      <Section id="expertise" />
-      <Section id="projects" />
-      <Section id="contact" />
     </div>
   );
 };
