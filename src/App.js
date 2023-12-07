@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import Expertise from './components/Expertise/Expertise';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 // import projects from './data/projects.json';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Contact />
       </main>
       <ScrollToTopButton />
+      <Footer />
     </div>
   );
 };

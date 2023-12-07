@@ -1,0 +1,33 @@
+.contact {
+  background-color: blueviolet;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  text-align: center;
+}
+
+.contact__title {
+  font-size: 3.75rem;
+  text-transform: uppercase;
+}
+
+.contact__description {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.contact__links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 22px;
+}
+
+.contact__link {
+  text-decoration: none;
+  font-size: 3rem;
+}

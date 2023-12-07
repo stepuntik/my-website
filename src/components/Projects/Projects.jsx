@@ -1,6 +1,8 @@
 import projectData from '../../data/projects.json';
 import Project from '../Project/Project';
 
+import './Projects.css';
+
 const Projects = () => {
   return (
     <section className="projects" id="projects">
@@ -9,7 +11,13 @@ const Projects = () => {
         Take a look at some of my projects
       </h2>
       {projectData.map(({ title, description, images, url }) => (
-        <Project key={title} title={title} description={description} images={images} url={url} />
+        <Project
+          key={title}
+          title={title}
+          description={description}
+          images={images}
+          url={url}
+        />
       ))}
     </section>
   );
