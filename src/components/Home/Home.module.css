@@ -12,17 +12,17 @@
   text-transform: uppercase;
 }
 
-.home__title {
+.title {
   font-size: 5rem;
 }
 
-.home__description {
+.description {
   font-size: 2.5rem;
 }
 
-.home__down-btn {
+/* .down-btn {
   justify-self: end;
   width: 300px;
   padding: 10px 30px;
   font-size: 30px;
-}
+} */

@@ -12,6 +12,19 @@
   width: 100%;
 }
 
+.navigation__logo-btn {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: visible;
+}
+
 .navigation__logo {
   width: 60px;
   height: auto;

@@ -26,12 +26,10 @@ const Navbar = () => {
 
   return (
     <header className={`header ${isFixed ? 'fixed' : ''}`}>
-      <Logo alt="logo" className="navigation__logo" />
+      <button className="navigation__logo-btn">
+        <Logo alt="logo" className="navigation__logo" />
+      </button>
       <nav className="navigation">
-        {/* <a href="/" className="navigation__link">
-          Home
-        </a>
-        */}
         <NavigationButton text="Home" section="home" />
         <NavigationButton text="Expertise" section="expertise" />
         <NavigationButton text="Projects" section="projects" />

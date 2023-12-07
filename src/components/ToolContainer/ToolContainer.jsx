@@ -1,3 +1,5 @@
+import Tool from '../Tool/Tool';
+
 import {
   SiJavascript,
   SiRedux,
@@ -21,46 +23,35 @@ import {
 
 import './ToolContainer.css';
 
-const ToolContainer = ({ children, text }) => {
+const ToolContainer = () => {
+  const toolsData = [
+    {
+      icon: <SiJavascript />,
+      text: 'JavaScript',
+    },
+    { icon: <FaReact />, text: 'React.js' },
+    { icon: <FaHtml5 />, text: 'HTML' },
+    { icon: <FaCss3 />, text: 'CSS' },
+    { icon: <FaGitAlt />, text: 'Git' },
+    { icon: <FaNodeJs />, text: 'Node.js' },
+    { icon: <SiRedux />, text: 'Redux' },
+    { icon: <SiTypescript />, text: 'TypeScript' },
+    { icon: <SiGraphql />, text: 'GraphQL' },
+    { icon: <SiMongodb />, text: 'MongoDB' },
+    { icon: <SiMongoose />, text: 'Mongoose' },
+    { icon: <SiFirebase />, text: 'Frebase' },
+    { icon: <SiJest />, text: 'Jest' },
+    { icon: <SiWebpack />, text: 'Webpack' },
+    { icon: <FaNpm />, text: 'NPM' },
+  ];
+
   return (
     <div className="tool-container">
-      <div className="tool">
-        <SiJavascript className="tool-container__icon" />
-        <div className="tool-container__text">JavaScript</div>
-      </div>
-      <div className="tool">
-        <FaReact className="tool-container__icon" />
-        <div className="tool-container__text">React.js</div>
-      </div>
-      <div className="tool">
-        <FaHtml5 className="tool-container__icon" />
-        <div className="tool-container__text">HTML</div>
-      </div>
-      <div className="tool">
-        <FaCss3 className="tool-container__icon" />
-        <div className="tool-container__text">CSS</div>
-      </div>
-      <div className="tool">
-        <FaGitAlt className="tool-container__icon" />
-        <div className="tool-container__text">Git</div>
-      </div>
-      <div className="tool">
-        <FaGitAlt className="tool-container__icon" />
-        <div className="tool-container__text">Git</div>
-      </div>
-      <div className="tool">
-        <FaGitAlt className="tool-container__icon" />
-        <div className="tool-container__text">Git</div>
-      </div>
-      <div className="tool">
-        <FaGitAlt className="tool-container__icon" />
-        <div className="tool-container__text">Git</div>
-      </div>
-      <div className="tool">
-        <FaGitAlt className="tool-container__icon" />
-        <div className="tool-container__text">Git</div>
-      </div>
+      {toolsData.map((tool, index) => (
+        <Tool key={index} icon={tool.icon} text={tool.text} />
+      ))}
     </div>
   );
 };
+
 export default ToolContainer;
