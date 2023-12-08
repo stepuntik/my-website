@@ -4,9 +4,12 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 4rem 0;
 }
 
 .expertise__title {
+  margin: 2rem 0;
   font-size: 3.75rem;
+  font-weight: 100;
   text-transform: uppercase;
 }

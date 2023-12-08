@@ -1,33 +1,44 @@
 [
   {
     "title": "Crown Clothing Shop",
-    "description": "Shop Clothing is a sample open-source e-commerce project offering a pleasant shopping experience, featuring a catalog of various kinds of clothes, a cart, and a checkout page with the Stripe payment system. It offers a beautiful responsive design, various methods of authorization (including Google Sign-in), and a local storage feature to keep the items in your cart even if you leave the page.",
+    "intro": "An e-commerce samle project that offers a delightful shopping experience, seamless checkout, and beautiful design.",
+    "description": "A sample e-commerce project offering a pleasant shopping experience, featuring a catalog of various kinds of clothes, a cart, and a checkout page with the Stripe payment system. It offers a beautiful responsive design, various methods of authorization (including Google Sign-in), and a local storage feature to keep the items in your cart even if you leave the page.",
     "projectUrl": "https://stepuntik.github.io/shop-clothing/",
-    "images": [
-      "images/projects/project1/image1.jpg",
-      "images/projects/project1/image2.jpg"
-    ]
+    "imageUrl": "https://imgpile.com/images/GvHZaF.png"
   },
   {
     "title": "Marvel Universe",
+    "intro": "A portal for Marvel fans around the world, offering character and comic insights.",
     "description": "Marvel Universe is an open-source web application that serves as an information portal for all things Marvel. Whether you're a dedicated comic book fan or just a casual admirer of the Marvel Universe, this project offers a rich source of data, keeping you up to date with your favorite characters and comics. Explore characters, comics, and much more in one convenient place.",
     "projectUrl": "https://stepuntik.github.io/marvel-universe/",
-    "images": [
-      "images/projects/project1/image1.jpg",
-      "images/projects/project1/image2.jpg"
-    ]
+    "imageUrl": "https://imgpile.com/images/GvHq0W.png"
   },
   {
     "title": "Natours - Tours For Everyone",
+    "intro": "A stunning and inviting landing page for an imaginary tour experience.",
     "description": "Natours is a beautiful and responsive landing page for a fictional tour company. The project showcases modern design principles using HTML and CSS to create an engaging user experience. It incorporates Sass for efficient styling, making the code modular and easy to maintain.",
     "projectUrl": "https://stepuntik.github.io/Natours/",
-    "images": [
-      {
-        "large": "https://imgpile.com/images/Gv8Zar.png",
-        "medium": "https://imgpile.com/images/Gv8Zar.md.png",
-        "small": "https://imgpile.com/images/Gv8Zar.th.png"
-      },
-      "images/projects/natours/natours2.jpg"
-    ]
+    "imageUrl": "https://imgpile.com/images/Gv8Zar.png"
+  },
+  {
+    "title": "Natours - Tours For Everyone",
+    "intro": "A stunning and inviting landing page for an imaginary tour experience.",
+    "description": "Natours is a beautiful and responsive landing page for a fictional tour company. The project showcases modern design principles using HTML and CSS to create an engaging user experience. It incorporates Sass for efficient styling, making the code modular and easy to maintain.",
+    "projectUrl": "https://stepuntik.github.io/Natours/",
+    "imageUrl": "https://imgpile.com/images/Gv8Zar.png"
+  },
+  {
+    "title": "Natours - Tours For Everyone",
+    "intro": "A stunning and inviting landing page for an imaginary tour experience.",
+    "description": "Natours is a beautiful and responsive landing page for a fictional tour company. The project showcases modern design principles using HTML and CSS to create an engaging user experience. It incorporates Sass for efficient styling, making the code modular and easy to maintain.",
+    "projectUrl": "https://stepuntik.github.io/Natours/",
+    "imageUrl": "https://imgpile.com/images/Gv8Zar.png"
+  },
+  {
+    "title": "Natours - Tours For Everyone",
+    "intro": "A stunning and inviting landing page for an imaginary tour experience.",
+    "description": "Natours is a beautiful and responsive landing page for a fictional tour company. The project showcases modern design principles using HTML and CSS to create an engaging user experience. It incorporates Sass for efficient styling, making the code modular and easy to maintain.",
+    "projectUrl": "https://stepuntik.github.io/Natours/",
+    "imageUrl": "https://imgpile.com/images/Gv8Zar.png"
   }
 ]

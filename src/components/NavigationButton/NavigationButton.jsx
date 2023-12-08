@@ -6,8 +6,8 @@ import './NavigationButton.css';
 const NavigationButton = ({ text, section }) => {
   const scrollToSection = () => {
     // Scroll to a specific section by providing the correct element's ID
-    scroll.scrollTo(`${section}`, {
-      duration: 800, // Animation duration in milliseconds
+    scroll.scrollTo(section, {
+      duration: 500, // Animation duration in milliseconds
       smooth: 'easeInOutQuart', // Easing function
     });
   };

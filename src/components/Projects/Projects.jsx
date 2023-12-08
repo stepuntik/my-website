@@ -1,22 +1,22 @@
 import projectData from '../../data/projects.json';
-import Project from '../Project/Project';
+import ProjectCard from '../ProjectCard/ProjectCard';
 
 import './Projects.css';
 
 const Projects = () => {
+  console.log(projectData);
+
   return (
     <section className="projects" id="projects">
       <h2 className="projects__title">My Work</h2>
-      <h2 className="projects__description">
-        Take a look at some of my projects
-      </h2>
-      {projectData.map(({ title, description, images, url }) => (
-        <Project
+      <h3 className="projects__subtitle">Take a look at some of my projects</h3>
+      {projectData.map(({ title, intro, imageUrl, projectUrl }) => (
+        <ProjectCard
           key={title}
           title={title}
-          description={description}
-          images={images}
-          url={url}
+          intro={intro}
+          imageUrl={imageUrl}
+          projectUrl={projectUrl}
         />
       ))}
     </section>
