@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --accent-color: #e74c3c;
+}
+
 html {
   font-size: 16px;
 }
@@ -17,22 +23,23 @@ h6 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   html {
     font-size: 12px; /* Increase base font size for larger screens */
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 676px) {
   html {
     font-size: 10px;
   }
 }
-@media screen and (max-width: 400px) {
+
+/* @media screen and (max-width: 400px) {
   html {
     font-size: 8px;
   }
-}
+} */
 
 body {
   font-size: 1rem;

@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const Tool = ({ icon, text, color }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const currentColor = isHovered ? color : 'black';
+  const currentColor = isHovered ? color : 'inherit';
 
   return (
     <div

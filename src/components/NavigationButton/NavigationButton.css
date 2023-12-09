@@ -1,9 +1,22 @@
 .navigation__button {
-  background-color: #4caf50;
+  background-color: transparent;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  text-transform: uppercase;
+}
+
+.navigation__button.active {
+  color: yellowgreen;
+}
+
+.arrow__icon {
+  transition: transform 0.3s ease;
+}
+
+.arrow__icon:hover {
+  transform: scale(1.2);
 }

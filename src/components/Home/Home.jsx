@@ -1,15 +1,18 @@
 import NavigationButton from '../NavigationButton/NavigationButton';
 
-import styles from './Home.module.css';
+import './Home.css';
 
 const Home = () => {
   return (
-    <section className={styles.home} id="home">
-      <h1 className={styles.title}>Stepan Lavrenchuk</h1>
-      <h2 className={styles.description}>
+    <section className="home" id="home">
+      <h1 className="home__title">Stepan Lavrenchuk</h1>
+      <h2 className="home__subtitle">
         Software engineer, Full Stack developer
       </h2>
-      <NavigationButton text="&#8595;" section="expertise" />
+      <div>
+        <h3 className="home__description">Learn more about what I do</h3>
+        <NavigationButton section="expertise" />
+      </div>
     </section>
   );
 };

@@ -1,6 +1,9 @@
 // ScrollToTopButton.jsx
 import { useState, useEffect } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
+
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
+
 import './ScrollToTopButton.css';
 
 const ScrollToTopButton = () => {
@@ -31,12 +34,17 @@ const ScrollToTopButton = () => {
     });
   };
 
+  const arrowUpIconStyle = {
+    fontSize: '24px',
+    color: 'var(--primary-color)', // Using the color variable
+  };
+
   return (
     <button
       className={`scroll-to-top-button ${isVisible ? 'visible' : ''}`}
       onClick={scrollToTop}
     >
-      &#8593; {/* Unicode arrow up character */}
+      <KeyboardArrowUpIcon style={arrowUpIconStyle} />
     </button>
   );
 };

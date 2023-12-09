@@ -1,3 +1,5 @@
+import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
+
 import './ProjectCard.css';
 
 const ProjectCard = ({ title, intro, imageUrl, projectUrl }) => {
@@ -7,8 +9,9 @@ const ProjectCard = ({ title, intro, imageUrl, projectUrl }) => {
         <h3 className="project-card__title">{title}</h3>
         <h4 className="project-card__intro">{intro}</h4>
         <div className="project-card__button-container">
-          <a href="/" className="project-card__button">
-            View
+          <a href={projectUrl} className="project-card__button">
+            <span>View</span>
+            <KeyboardArrowRightIcon />
           </a>
         </div>
       </div>

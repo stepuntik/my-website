@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 import './Contact.css';
 
-const Contact = () => {
+const Contact = ({ id }) => {
   return (
     <section className="contact" id="contact">
       <h2 className="contact__title">Connect With Me</h2>
