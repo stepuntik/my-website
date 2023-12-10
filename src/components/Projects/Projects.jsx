@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section className="projects" id="projects">
       <h2 className="projects__title">My Work</h2>
-      <h3 className="projects__subtitle">Take a look at some of my projects</h3>
+      <h3 className="projects__subtitle">Check out some of my projects</h3>
       {projectData.map(({ title, intro, imageUrl, projectUrl }) => (
         <ProjectCard
           key={title}

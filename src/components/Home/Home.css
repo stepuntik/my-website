@@ -1,14 +1,18 @@
 .home {
+  background-image: url(https://imgpile.com/images/GEur51.jpg);
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
   margin-top: 64px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   padding: 2rem;
-  background-color: aquamarine;
   text-align: center;
+  color: white;
 }
 
 .home__title {
@@ -24,3 +28,11 @@
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
+
+/* .home__arrow-down {
+  transition: transform 0.3s ease;
+} */
+/* 
+.home__arrow-down:hover {
+  transform: scale(1.2);
+} */

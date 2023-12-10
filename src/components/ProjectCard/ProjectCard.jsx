@@ -10,7 +10,7 @@ const ProjectCard = ({ title, intro, imageUrl, projectUrl }) => {
         <h4 className="project-card__intro">{intro}</h4>
         <div className="project-card__button-container">
           <a href={projectUrl} className="project-card__button">
-            <span>View</span>
+            View
             <KeyboardArrowRightIcon />
           </a>
         </div>

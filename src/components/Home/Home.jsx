@@ -1,4 +1,5 @@
-import NavigationButton from '../NavigationButton/NavigationButton';
+import { Link } from 'react-scroll';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
 import './Home.css';
 
@@ -11,7 +12,16 @@ const Home = () => {
       </h2>
       <div>
         <h3 className="home__description">Learn more about what I do</h3>
-        <NavigationButton section="expertise" />
+        <Link
+          to="expertise"
+          spy
+          smooth
+          offset={-65}
+          duration={700}
+          className="home__arrow-down"
+        >
+          <KeyboardArrowDownIcon style={{ fontSize: '3rem' }} />
+        </Link>
       </div>
     </section>
   );

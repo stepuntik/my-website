@@ -1,0 +1,22 @@
+.navigation__link {
+  padding: 1rem;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center vertically */
+  height: 100%;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.navigation__link:hover {
+  background-color: white;
+  color: black;
+}
+
+.navigation__active {
+  background-color: white;
+  color: black;
+}

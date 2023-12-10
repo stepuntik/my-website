@@ -22,12 +22,12 @@
 }
 
 .project-card__title {
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
 .project-card__intro {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin: 2rem 0;
 }
 
@@ -47,6 +47,7 @@
 }
 
 .project-card__button {
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;

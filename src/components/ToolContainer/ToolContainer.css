@@ -1,19 +1,25 @@
 .tool-container {
-  width: 80%;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(
     auto-fill,
     minmax(150px, 1fr)
   ); /* Responsive grid with a minimum column width of 150px */
   gap: 20px; /* Adjust the gap size as needed */
-  padding: 20px;
+  padding: 1.25rem;
   font-size: 1.25rem; /* Adjust the font size as needed */
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 660px) {
   .tool-container {
-    grid-template-columns: 1fr; /* Force one column for screens <= 460px */
+    grid-template-columns: 1fr 1fr 1fr; /* Force one column for screens <= 460px */
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .tool-container {
+    grid-template-columns: 1fr 1fr; /* Force one column for screens <= 460px */
     justify-content: center; /* Center the single grid item horizontally */
   }
 }

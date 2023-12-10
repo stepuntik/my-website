@@ -10,6 +10,7 @@ import {
   SiFirebase,
   SiJest,
   SiWebpack,
+  SiFuturelearn,
 } from 'react-icons/si';
 
 import {
@@ -40,6 +41,7 @@ const ToolContainer = () => {
     { icon: <SiJest />, text: 'Jest', color: '#C21325' },
     { icon: <SiWebpack />, text: 'Webpack', color: '#8DD6F9' },
     { icon: <FaNpm />, text: 'NPM', color: '#CB3837' },
+    { icon: <SiFuturelearn />, text: 'More coming...', color: '#2b358d' },
   ];
 
   return (

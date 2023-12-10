@@ -1,0 +1,24 @@
+/* ThemeToggle.css */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.toggle-button {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  transition: left 0.3s ease;
+}
+
+.light .toggle-button {
+  left: 0;
+}
+
+.dark .toggle-button {
+  left: calc(100% - 48px);
+}

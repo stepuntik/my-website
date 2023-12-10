@@ -1,6 +1,8 @@
 .contact {
-  background-color: blueviolet;
-  height: 90vh;
+  /* background-image: linear-gradient(to bottom right, #00c0ff, #4218b8); */
+  background-image: linear-gradient(to bottom right, #5761b2, #1fc5a8);
+  padding: 0 3rem;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +17,7 @@
 }
 
 .contact__description {
-  font-size: 1.25rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -29,5 +31,23 @@
 
 .contact__link {
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 5rem;
+  color: var(--color-primary);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact__link:hover {
+  transform: scale(1.1);
+}
+
+.contact__link.linkedin:hover {
+  color: #0077b5;
+}
+
+.contact__link.github:hover {
+  color: #211f1f;
+}
+
+.contact__link.email:hover {
+  color: #ff5722;
 }

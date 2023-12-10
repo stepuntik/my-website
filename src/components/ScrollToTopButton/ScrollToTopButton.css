@@ -14,12 +14,3 @@
   height: 40px;
   cursor: pointer;
 }
-
-/* .scroll-to-top-button:hover {
-  background-color: var(--primary-color);
-} */
-
-.scroll-to-top-button.visible {
-  opacity: 1;
-  visibility: visible;
-}

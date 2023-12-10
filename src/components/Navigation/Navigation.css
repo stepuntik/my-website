@@ -1,20 +1,21 @@
 .header {
+  background-color: #010101;
   height: 65px;
   z-index: 1;
-  display: flex;
   padding: 0px 20px;
-  background-color: #333; /* Adjust the background color as needed */
-  transition: opacity 0.3s ease; /* Smooth transition effect for opacity */
-}
-
-.header.fixed {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  /* opacity: 0.9; */
 }
 
-.navigation__logo-btn {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__logo-link {
   margin: 0;
   padding: 0;
   border: none;
@@ -33,29 +34,9 @@
   border-radius: 50%;
 }
 
-.navigation {
+.navigation__list {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 10px 20px;
-}
-
-.header.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-.navigation__link {
-  text-decoration: none;
-  color: white; /* Adjust the text color as needed */
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s ease; /* Smooth color transition */
-}
-
-.navigation__link:hover {
-  color: #ffd700; /* Change the color on hover */
 }

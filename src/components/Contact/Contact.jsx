@@ -12,20 +12,23 @@ const Contact = ({ id }) => {
           with?
         </h3>
         <h4 className="contact__description">
-          Send me an email or contact me via instant message!
+          Send me an email or connect with me here:
         </h4>
       </div>
       <div className="contact__links-container">
         <a
-          className="contact__link"
+          className="contact__link linkedin"
           href="https://www.linkedin.com/in/stepuntik/"
         >
           <FaLinkedin />
         </a>
-        <a className="contact__link" href="https://github.com/stepuntik">
+        <a className="contact__link gihub" href="https://github.com/stepuntik">
           <FaGithub />
         </a>
-        <a className="contact__link" href="mailto:steven.lavrenchuk@gmail.com">
+        <a
+          className="contact__link email"
+          href="mailto:steven.lavrenchuk@gmail.com"
+        >
           <FaEnvelope />
         </a>
       </div>

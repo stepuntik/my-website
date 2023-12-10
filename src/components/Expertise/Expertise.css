@@ -1,5 +1,8 @@
 .expertise {
-  background-color: aqua;
+  background-image: url(https://imgpile.com/images/GEuX1j.jpg);
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -9,8 +12,8 @@
 
 .expertise__title {
   text-align: center;
-  margin-bottom: 2rem;
-  font-size: 3.75rem;
+  margin: 3rem 0;
+  font-size: 4rem;
   font-weight: 100;
   text-transform: uppercase;
 }
