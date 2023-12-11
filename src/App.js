@@ -10,11 +10,8 @@ import Footer from './components/Footer/Footer';
 // import projects from './data/projects.json';
 
 const App = () => {
-  // console.log(projects[0].name);
-
   return (
     <div className="App">
-      {/* <Navbar /> */}
       <Navigation />
       <main>
         <Home />
