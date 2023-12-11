@@ -2,16 +2,17 @@ import { Link } from 'react-scroll';
 
 import './NavButton.css';
 
-const NavButton = ({ text, section }) => {
+const NavButton = ({ text, section, onClose }) => {
   return (
     <Link
       className="navigation__link"
+      activeClass="navigation__link--active"
       to={section}
       spy
       smooth
       offset={-64}
       duration={700}
-      activeClass="navigation__active"
+      onClick={onClose}
     >
       {text}
     </Link>

@@ -1,11 +1,10 @@
 import projectData from '../../data/projects.json';
+
 import ProjectCard from '../ProjectCard/ProjectCard';
 
 import './Projects.css';
 
 const Projects = () => {
-  console.log(projectData);
-
   return (
     <section className="projects" id="projects">
       <h2 className="projects__title">My Work</h2>

@@ -16,7 +16,7 @@ const Home = () => {
           to="expertise"
           spy
           smooth
-          offset={-65}
+          offset={-64}
           duration={700}
           className="home__arrow-down"
         >

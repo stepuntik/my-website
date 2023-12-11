@@ -1,6 +1,8 @@
 .contact {
-  /* background-image: linear-gradient(to bottom right, #00c0ff, #4218b8); */
-  background-image: linear-gradient(to bottom right, #5761b2, #1fc5a8);
+  background-image: url('https://imgpile.com/images/GENMHg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 0 3rem;
   min-height: 90vh;
   display: flex;
@@ -9,11 +11,7 @@
   align-items: center;
   gap: 6rem;
   text-align: center;
-}
-
-.contact__title {
-  font-size: 3.75rem;
-  text-transform: uppercase;
+  color: white;
 }
 
 .contact__description {

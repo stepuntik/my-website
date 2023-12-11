@@ -29,10 +29,11 @@
   margin-bottom: 2rem;
 }
 
-/* .home__arrow-down {
+.home__arrow-down .MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.home__arrow-down:hover .MuiSvgIcon-root {
+  transform: translateY(10px);
   transition: transform 0.3s ease;
-} */
-/* 
-.home__arrow-down:hover {
-  transform: scale(1.2);
-} */
+}
