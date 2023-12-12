@@ -1,27 +1,28 @@
-import './App.css';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
+
+import MainPage from './pages/MainPage';
+import ProjectPage from './pages/ProjectPage';
+
 import Navigation from './components/Navigation/Navigation';
 import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton';
-import Home from './components/Home/Home';
-import Expertise from './components/Expertise/Expertise';
-import Projects from './components/Projects/Projects';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
-// import Navbar from './components/NewNavigation/NavBar';
-// import projects from './data/projects.json';
+
+import './App.css';
 
 const App = () => {
   return (
-    <div className="App">
-      <Navigation />
-      <main>
-        <Home />
-        <Expertise />
-        <Projects />
-        <Contact />
-      </main>
-      <ScrollToTopButton />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navigation />
+        <main>
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/projects/:title" element={<ProjectPage />} />
+          </Routes>
+        </main>
+
+        <ScrollToTopButton />
+      </div>
+    </BrowserRouter>
   );
 };
 

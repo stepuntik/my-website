@@ -4,8 +4,8 @@ import './Contact.css';
 
 const Contact = ({ id }) => {
   return (
-    <section className="contact" id="contact">
-      <h2 className="contact__title">Connect With Me</h2>
+    <section className="contact " id="contact">
+      <h2 className="contact__title uppercase">Connect With Me</h2>
       <div className="contact__description-container">
         <h3 className="contact__description">
           Have a work opportunity for me or an exciting project you need help

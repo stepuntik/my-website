@@ -5,7 +5,7 @@ import './Expertise.css';
 const Expertise = () => {
   return (
     <section className="expertise" id="expertise">
-      <h2 className="expertise__title">My Expertise</h2>
+      <h2 className="expertise__title uppercase">My Expertise</h2>
       <ToolContainer />
     </section>
   );

@@ -46,13 +46,8 @@ const ToolContainer = () => {
 
   return (
     <div className="tool-container">
-      {toolsData.map((tool, index) => (
-        <Tool
-          key={index}
-          icon={tool.icon}
-          text={tool.text}
-          color={tool.color}
-        />
+      {toolsData.map(({ icon, text, color }, index) => (
+        <Tool key={index} icon={icon} text={text} color={color} />
       ))}
     </div>
   );
