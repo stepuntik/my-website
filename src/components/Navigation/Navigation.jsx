@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
+import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
+
 import { CiMenuBurger } from 'react-icons/ci';
 import { TfiClose } from 'react-icons/tfi';
 
 import NavButton from '../NavButton/NavButton';
+
 // import ThemeToggle from '../ThemeToggle/ThemeToggle';
 
 import './Navigation.css';
@@ -47,6 +50,7 @@ const Navigation = () => {
     </>
   ) : (
     <Link className="navigation__link go-back" onClick={goBack}>
+      <KeyboardArrowLeftIcon style={{ fontSize: '2rem' }} />
       Go Back
     </Link>
   );

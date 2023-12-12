@@ -51,6 +51,15 @@
   justify-content: flex-end;
 }
 
+.navigation__link.go-back .MuiSvgIcon-root {
+  transform: translateY(-1px);
+  transition: transform 0.3s ease;
+}
+
+.navigation__link.go-back:hover .MuiSvgIcon-root {
+  transform: translateX(-6px) translateY(-1px);
+}
+
 @media screen and (max-width: 600px) {
   .navigation__icon {
     display: block;

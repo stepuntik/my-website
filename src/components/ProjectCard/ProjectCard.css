@@ -65,9 +65,13 @@
   color: #fff;
 }
 
-.project-card__button:hover .MuiSvgIcon-root {
-  transform: translateX(6px);
+.project-card__button .MuiSvgIcon-root {
+  transform: translateY(-1px);
   transition: transform 0.3s ease;
+}
+
+.project-card__button:hover .MuiSvgIcon-root {
+  transform: translateX(6px) translateY(-1px);
 }
 
 @media screen and (max-width: 650px) {
