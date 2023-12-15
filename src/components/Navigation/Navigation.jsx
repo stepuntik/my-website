@@ -17,7 +17,6 @@ const Navigation = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // Check if the current route is the home route ('/')
   const isHomeRoute = location.pathname === '/';
 
   const handleClick = () => setClick(!click);
@@ -58,13 +57,13 @@ const Navigation = () => {
   return (
     <header className="header">
       <nav className="navigation">
-        <a href="/" className="navigation__logo-link">
+        <Link to="/" className="navigation__logo-link">
           <img
             src="https://imgpile.com/images/GE5Gkw.jpg"
             alt="logo"
             className="navigation__logo"
           />
-        </a>
+        </Link>
         {navButtons}
         {/* <ThemeToggle /> */}
       </nav>
